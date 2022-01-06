@@ -7,7 +7,6 @@
 
 header {
     height: 72px;
-    text-align: center;
 }
 
 .nav {
@@ -27,7 +26,8 @@ header {
     display: inline-block;
     position: relative;
     top: 50%;
-    transform: translateY(-50%)
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .nav__overlay {
@@ -291,8 +291,337 @@ header {
     margin: 30px 33px 0;
 }
 
+.block_4 {
+    background: url(img/pexels-photo-5646794.jpeg);
+    height: 657px;
+    background-position: 100% 76.05%;
+    background-size: cover;
+    text-align: center;
+}
+
 .block_4_wrap {
     width: 940px;
+    margin: 0 auto;
+}
+
+.block_4_wrap h2 {
+    color: #fff;
+    padding: 60px 13px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.block_4_container {
+    width: 570px;
+    margin: 35px auto 60px;
+}
+
+.block_4_item a {
+    color: #fff;
+    background-color: #9eafbf;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 50px;
+    width: 100%;
+    height: 45.6px;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+}
+
+.text_content_container {
+    min-height: 188px;
+}
+
+.text_content_child {
+    padding: 30px;
+    color: #fff;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.block_4_container .item2 .text_content_container,
+.block_4_container .item3 .text_content_container {
+    display: none;
+}
+
+.block_4_container .item2 a,
+.block_4_container .item3 a {
+    margin-top: 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+.block_5_container {
+    margin-top: -90px;
+    display: flex;
+    height: 595px;
+}
+
+.block_5_container img {
+    width: 266px;
+    height: 291px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.block_5_container .item2 {
+    align-self: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.block_5_container .item2 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_5_container .item2 p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_5_container .item2 a {
+    color: #9eafbf;
+    border: 2px solid #9eafbf;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.block_5_container .item2 a:hover {
+    background-color: #9eafbf;
+    color: #fff;
+}
+
+.block_5_container .item3 {
+    align-self: flex-end;
+}
+
+.block_6 {
+    background-color: #e5e5e5;
+}
+
+.block_6_container {
+    width: 940px;
+    margin: 0 auto;
+    min-height: 660px;
+    display: flex;
+    padding: 60px 0;
+}
+
+.block_6_item_left {
+    width: 62%;
+}
+
+.block_6_item_left_top {
+    display: flex;
+}
+
+.block_6_item_left_top_left {
+    padding: 10px;
+    width: 288px;
+}
+
+.block_6_item_left_top_left_container {
+    padding: 30px;
+}
+
+.block_6_item_left_top_left_container h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.block_6_item_left_top_left_container p {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.block_6_item_left_top_right img {
+    padding: 10px;
+    height: 280px;
+    width: 288px;
+}
+
+.block_6_item_left_bottom img {
+    height: 280px;
+    width: 576px;
+    padding: 10px;
+}
+
+.block_6_item_right {
+    padding: 10px;
+    width: 384px;
+    height: 560px;
+}
+
+.block_7 {
+    height: 675px;
+    display: flex;
+}
+
+.block_7_container {
+    width: 800px;
+    height: 555px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.block_7_img {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-image: url(img/pexelsphoto412840.jpeg);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-position: 50% 50%;
+}
+
+.block_7_container p {
+    font-size: 20px;
+    line-height: 36px;
+    width: 680px;
+    margin: 20px auto 0;
+}
+
+.block_7_container h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-top: 20px;
+}
+
+.block_7_container h6 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 4px;
+}
+
+.block_8 {
+    height: 809px;
+    background-color: #9eafbf;
+}
+
+.block_8_container {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_8_container h2 {
+    margin-top: 63px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.block_8_container>p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    width: 616px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.block_8_container>p span {
+    font-weight: 700;
+}
+
+.contact_container {
+    width: 796px;
+    height: 470px;
+    margin: 40px auto 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.contact_item {
+    width: 378px;
+    height: 215px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact_item_wrap {
+    padding: 30px;
+    height: 100%;
+}
+
+.contact_item_wrap i {
+    color: #9eafbf;
+    font-size: 48px;
+}
+
+.contact_item_wrap h5 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.contact_item_wrap p {
+    color: #111111;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-top: 19px;
+}
+
+.contact_item_wrap a {
+    color: #9eafbf;
+    text-decoration-color: #9eafbf;
+}
+
+footer {
+    height: 240px;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container {
+    height: 45px;
+    width: 440px;
+    margin: 49px auto;
+}
+
+.about_desige {
+    width: 419px;
+    margin: 39px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_desige a {
+    font-size: 1rem;
+    color: #d5dee5;
 }
 
 @media (max-width: 1023px) {}
